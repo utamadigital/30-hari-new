@@ -41,9 +41,9 @@ export default function HeroSection() {
           >
             Mulai Program 30 Hari
           </button>
-          <div className="mt-2 space-y-1 text-xs">
+          <div className="mt-2 space-y-1 text-xs lg:mb-12">
             <p className="text-slate-700">
-              Bayar via <span className="font-bold">QRIS / VA (Midtrans)</span> • Link download <span className="font-bold">muncul otomatis</span>
+              Bayar via <span className="font-bold">QRIS / VA</span> • Link download <span className="font-bold">muncul otomatis</span>
             </p>
             <p className="text-slate-600">
               Paling dipilih: <span className="font-extrabold text-emerald-700">Program 30 Hari Rp 99.000</span>
@@ -51,9 +51,9 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="rounded-3xl border shadow bg-white p-4">
-          <PdfFlipbook />
-        </div>
+        <div className="rounded-3xl border shadow bg-white p-4 mb-10 lg:mb-12">
+  <PdfFlipbook />
+</div>
       </div>
   </Container>
 </section>
