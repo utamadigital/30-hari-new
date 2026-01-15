@@ -3,7 +3,7 @@
 import Container from "@/components/Container";
 import { Check, AlertTriangle, Star } from "lucide-react";
 
-export default function PricingSection() {
+export default function PricingSection(_props: any) {
   return (
     <section id="pricing" className="py-16 bg-slate-50">
       <Container>
