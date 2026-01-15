@@ -16,10 +16,9 @@ import FAQSection from "./FAQSection";
 
 // NOTE: PricingSection in this project is a static section (no prop drilling).
 // We keep PlanId here only for pixel/tracking guards used across the page.
-export type PlanId = "basic" | "bundle" | "premium";
+type PlanId = "basic" | "bundle" | "premium";
 
 // Plan IDs used across the landing page (kept here to avoid TS build errors)
-type PlanId = "basic" | "bundle" | "premium";
 
 function scrollToId(id: string) {
   const el = document.getElementById(id);
