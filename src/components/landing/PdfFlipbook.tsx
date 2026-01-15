@@ -9,6 +9,12 @@ const HTMLFlipBook = dynamic(() => import("react-pageflip").then((m) => m.defaul
 
 export type FlipPage = { src: string; alt?: string };
 
+const DEFAULT_PAGES: FlipPage[] = [
+  { src: "/halaman/Aktivitas1.jpg", alt: "Contoh worksheet 1" },
+  { src: "/halaman/Aktivitas2.jpg", alt: "Contoh worksheet 2" },
+  { src: "/halaman/Aktivitas3.jpg", alt: "Contoh worksheet 3" },
+];
+
 function usePrefersReducedMotion() {
   const [reduced, setReduced] = useState(false);
   useEffect(() => {
@@ -72,14 +78,14 @@ function PreviewImage({
  * - object-contain => gambar A4 1200x1697 tampil utuh, tidak jadi landscape/crop
  */
 export default function PdfFlipbook({
-  pages,
+  pages = DEFAULT_PAGES,
   ratio = 1.414, // A4 portrait height = width * ratio
   maxWidth = 520,
   maxHeightMobile = 360,
   maxHeightDesktop = 620,
   className = "",
 }: {
-  pages: FlipPage[];
+  pages?: FlipPage[];
   ratio?: number;
   maxWidth?: number;
   maxHeightMobile?: number;
