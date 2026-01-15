@@ -62,7 +62,7 @@ export default function GuaranteeSection({ ctaHref = "#pricing" }: { ctaHref?: s
       className="pb-16"
     >
   <Container>
-<div className="mt-15 bg-emerald-50 rounded-3xl px-5 py-8 md:mt-0">
+<div className="rounded-3xl border border-emerald-200 bg-emerald-50 p-6 shadow-sm md:p-8">
         <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
           <div>
             <span className="inline-flex items-center rounded-full bg-white px-3 py-1 text-xs font-semibold text-emerald-800 ring-1 ring-emerald-200">

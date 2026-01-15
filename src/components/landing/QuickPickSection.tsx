@@ -186,7 +186,7 @@ export default function QuickPickSection({
           {selectedId ? (
             <a
               href="#checkout-summary"
-              className="inline-flex h-11 items-center justify-center rounded-full border border-slate-200 bg-white px-5 text-sm font-extrabold text-slate-900 shadow-sm transition hover:bg-slate-50 active:scale-[0.99] focus:outline-none focus-visible:ring-4 focus-visible:ring-slate-200 md:whitespace-nowrap"
+              className="inline-flex h-11 items-center justify-center rounded-full border border-slate-200 bg-white text-sm font-extrabold text-slate-900 shadow-sm transition hover:bg-slate-50 active:scale-[0.99] focus:outline-none focus-visible:ring-4 focus-visible:ring-slate-200"
             >
               Lanjut ke Ringkasan • Rp {formatIDR(selectedPrice)}
             </a>
@@ -194,7 +194,7 @@ export default function QuickPickSection({
             <button
               type="button"
               disabled
-              className="inline-flex h-11 items-center justify-center rounded-full border border-slate-200 bg-slate-100 px-5 text-sm font-extrabold text-slate-500 whitespace-nowrap"
+              className="inline-flex h-11 items-center justify-center rounded-full border border-slate-200 bg-slate-100 text-sm font-extrabold text-slate-500"
             >
               Pilih paket dulu
             </button>

@@ -4,10 +4,6 @@ import Container from "@/components/Container";
 
 import { CreditCard, Download, MousePointerClick } from "lucide-react";
 
-function Container({ children }: { children: React.ReactNode }) {
-  return <div className="">{children}</div>;
-}
-
 function StepCard({
   icon,
   step,

@@ -8,10 +8,10 @@ export default function RadicalStorySection() {
     <section className="py-14 bg-slate-50">
       <Container>
         <div className="text-left">
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900">
+        <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
           Masalahnya Bukan Anak Malas.
         </h2>
-        <p className="mt-4 text-slate-700 text-base lg:text-lg lg:leading-relaxed">
+        <p className="mt-4 text-slate-700">
           Kebanyakan orang tua menyerah bukan karena anaknya,
           tapi karena <strong>bingung mulai dari mana dan tidak konsisten</strong>.
         </p>

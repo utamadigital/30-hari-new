@@ -5,28 +5,28 @@ import { Check, AlertTriangle, Star } from "lucide-react";
 
 export default function PricingSection() {
   return (
-    <section id="pricing" className="py-16 lg:py-24 bg-slate-50">
+    <section id="pricing" className="py-16 bg-slate-50">
       <Container>
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900">
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-900">
             Mulai dari Coba Dulu, atau Langsung Bikin Anak Konsisten
           </h2>
-          <p className="mt-4 text-slate-700 text-base lg:text-lg lg:leading-relaxed max-w-3xl mx-auto">
+          <p className="mt-4 text-slate-700 max-w-2xl mx-auto">
             Banyak orang tua menyesal karena hanya beli worksheet,
             tapi tetap bingung harus mulai dari mana.
           </p>
         </div>
 
-        <div className="grid gap-6 lg:gap-8 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-3">
           {/* BASIC */}
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 lg:p-8 text-left">
-            <h3 className="text-lg lg:text-xl font-bold text-slate-900">Basic — Coba Dulu</h3>
-            <p className="mt-1 text-sm lg:text-base text-slate-600">
+          <div className="rounded-2xl border border-slate-200 bg-white p-6 text-left">
+            <h3 className="text-lg font-bold text-slate-900">Basic — Coba Dulu</h3>
+            <p className="mt-1 text-sm text-slate-600">
               Cocok kalau mau lihat-lihat dulu isinya.
             </p>
 
             <div className="my-6">
-              <span className="text-4xl lg:text-5xl font-black text-slate-900">Rp 69.000</span>
+              <span className="text-4xl font-black text-slate-900">Rp 69.000</span>
             </div>
 
             <ul className="space-y-2 text-sm text-slate-700">
@@ -47,8 +47,8 @@ export default function PricingSection() {
           </div>
 
           {/* BEST VALUE */}
-          <div className="relative rounded-2xl border-2 border-emerald-600 bg-white p-6 pt-10 lg:p-8 lg:pt-12 text-left shadow-xl">
-            <div className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-emerald-600 px-4 py-1 text-[11px] font-extrabold text-white shadow-sm whitespace-nowrap">
+          <div className="relative rounded-2xl border-2 border-emerald-600 bg-white p-6 text-left shadow-xl">
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-emerald-600 px-4 py-1 text-xs font-extrabold text-white">
               PALING AMAN UNTUK ORANG TUA
             </div>
 
@@ -56,12 +56,12 @@ export default function PricingSection() {
               Program 30 Hari
               <Star className="h-5 w-5 text-emerald-600" />
             </h3>
-            <p className="mt-1 text-sm lg:text-base text-slate-600">
+            <p className="mt-1 text-sm text-slate-600">
               Anak tinggal ikuti. Orang tua tidak perlu mikir.
             </p>
 
             <div className="my-6">
-              <span className="text-4xl lg:text-5xl font-black text-slate-900">Rp 99.000</span>
+              <span className="text-4xl font-black text-slate-900">Rp 99.000</span>
               <p className="text-sm text-emerald-700 font-semibold mt-1">
                 Selisih Rp 30.000, tapi beda hasilnya berbulan-bulan
               </p>
@@ -88,14 +88,14 @@ export default function PricingSection() {
           </div>
 
           {/* PREMIUM */}
-          <div className="rounded-2xl border border-slate-200 bg-white p-6 lg:p-8 text-left">
-            <h3 className="text-lg lg:text-xl font-bold text-slate-900">Lengkap + Pendamping</h3>
-            <p className="mt-1 text-sm lg:text-base text-slate-600">
+          <div className="rounded-2xl border border-slate-200 bg-white p-6 text-left">
+            <h3 className="text-lg font-bold text-slate-900">Lengkap + Pendamping</h3>
+            <p className="mt-1 text-sm text-slate-600">
               Untuk orang tua yang ingin benar-benar tenang & ditemani.
             </p>
 
             <div className="my-6">
-              <span className="text-4xl lg:text-5xl font-black text-slate-900">Rp 129.000</span>
+              <span className="text-4xl font-black text-slate-900">Rp 129.000</span>
             </div>
 
             <ul className="space-y-2 text-sm text-slate-700">
@@ -114,7 +114,7 @@ export default function PricingSection() {
           </div>
         </div>
 
-        <p className="mt-10 text-center text-sm lg:text-base text-slate-600">
+        <p className="mt-10 text-center text-sm text-slate-600">
           Pembayaran aman • File bisa diunduh langsung • Cocok untuk anak usia dini
         </p>
       </Container>

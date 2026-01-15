@@ -8,18 +8,18 @@ const PdfFlipbook = dynamic(() => import("./PdfFlipbook"), { ssr: false });
 
 export default function HeroSection() {
   return (
-    <section className="pt-12 lg:pt-24 lg:pb-16 bg-gradient-to-b from-white to-emerald-50 text-slate-900">
+    <section className="pt-12 bg-gradient-to-b from-white to-emerald-50 text-slate-900">
   <Container>
-<div className="mx-auto max-w-screen-xl px-6 grid gap-10 lg:gap-14 lg:grid-cols-2 items-start lg:items-center">
+<div className="mx-auto max-w-screen-xl px-6 grid gap-10 lg:grid-cols-2 items-start">
         <div>
           <span className="inline-flex items-center rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-800">
             PROGRAM 30 HARI • TANPA GADGET
           </span>
-          <h1 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-black leading-tight lg:leading-[1.05] text-slate-900">
+          <h1 className="mt-4 text-3xl sm:text-4xl font-black leading-tight text-slate-900">
             Anak Lebih Tenang & Konsisten Belajar Islam
             <span className="block text-emerald-700">Tanpa Perlu Disuruh</span>
           </h1>
-          <p className="mt-4 text-slate-700 text-base lg:text-lg lg:leading-relaxed">
+          <p className="mt-4 text-slate-700 text-base">
             Ini <strong>bukan kumpulan worksheet</strong>. Ini program belajar anak Muslim 30 hari,
             sudah disusun harian. Orang tua tinggal print, anak tinggal kerjakan.
           </p>

@@ -70,7 +70,7 @@ export default function SocialProofSection({ ctaHref = "#pricing" }: Props) {
         {/* CTA secondary: fokus tetap di Hero/Pricing/Sticky untuk aksi checkout */}
         <a
           href={ctaHref}
-          className="inline-flex h-11 items-center justify-center rounded-full border border-slate-200 bg-white px-5 text-sm font-extrabold text-slate-900 shadow-sm transition hover:bg-slate-50 active:scale-[0.99] whitespace-nowrap"
+          className="inline-flex h-11 items-center justify-center rounded-full border border-slate-200 bg-white text-sm font-extrabold text-slate-900 shadow-sm transition hover:bg-slate-50 active:scale-[0.99]"
         >
           Lihat Paket
         </a>

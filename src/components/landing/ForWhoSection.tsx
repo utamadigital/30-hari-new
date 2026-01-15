@@ -4,10 +4,6 @@ import Container from "@/components/Container";
 
 import { Quote, Star } from "lucide-react";
 
-function Container({ children }: { children: React.ReactNode }) {
-  return <div className="">{children}</div>;
-}
-
 function Stars() {
   return (
     <div className="flex gap-1">

@@ -34,7 +34,7 @@ export default function FAQSection({ ctaHref = "#pricing" }: { ctaHref?: string 
           <span className="inline-flex items-center rounded-full bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-700 ring-1 ring-slate-200">
             PERTANYAAN UMUM
           </span>
-          <h2 className="mt-3 text-xl font-extrabold text-slate-900 md:text-2xl lg:text-3xl">
+          <h2 className="mt-3 text-xl font-extrabold text-slate-900 md:text-2xl">
             Masih ragu? Ini jawaban singkatnya
           </h2>
           <p className="mt-2 text-sm text-slate-600">
@@ -44,7 +44,7 @@ export default function FAQSection({ ctaHref = "#pricing" }: { ctaHref?: string 
 
         <a
           href={ctaHref}
-          className="inline-flex h-11 items-center justify-center rounded-full border border-slate-200 bg-white px-5 text-sm font-extrabold text-slate-900 shadow-sm transition hover:bg-slate-50 active:scale-[0.99] whitespace-nowrap"
+          className="inline-flex h-11 items-center justify-center rounded-full border border-slate-200 bg-white text-sm font-extrabold text-slate-900 shadow-sm transition hover:bg-slate-50 active:scale-[0.99]"
         >
           Lihat Paket
         </a>

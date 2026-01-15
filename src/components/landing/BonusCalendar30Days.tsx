@@ -236,14 +236,14 @@ export default function BonusCalendar30Days() {
           <button
             type="button"
             onClick={resetAll}
-            className="inline-flex h-11 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 text-xs font-extrabold text-slate-800 shadow-sm hover:bg-slate-50 active:scale-[0.98] sm:text-sm"
+            className="inline-flex h-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-xs font-extrabold text-slate-800 shadow-sm hover:bg-slate-50 active:scale-[0.98]"
           >
             ↺ Reset Centang
           </button>
           <button
             type="button"
             onClick={() => window.print()}
-            className="inline-flex h-11 items-center justify-center gap-2 rounded-xl bg-emerald-600 px-4 text-xs font-extrabold text-white shadow-sm hover:bg-emerald-700 active:scale-[0.98] sm:text-sm"
+            className="inline-flex h-11 items-center justify-center rounded-xl bg-emerald-600 text-xs font-extrabold text-white shadow-sm hover:bg-emerald-700 active:scale-[0.98]"
           >
             🖨️ Print A4
           </button>
@@ -271,7 +271,7 @@ export default function BonusCalendar30Days() {
 </button>
         </div>
 
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 lg:gap-4">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
           {(showAllDays ? DAYS : DAYS.slice(0, 8)).map((d, idx) => {
             const dayNum = idx + 1;
             const isDone = !!doneMap[dayNum];
