@@ -110,7 +110,7 @@ export default function LandingPageClient() {
       <PricingSection
         plans={plans}
         selectedId={selectedId}
-        onSelect={(id) => {
+        onSelect={(id: PlanId) => {
           onSelect(id);
           // optional: scroll to pricing to keep momentum
           scrollToId("pricing");
