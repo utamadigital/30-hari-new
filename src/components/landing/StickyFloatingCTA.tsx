@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import type { PlanId } from "./PricingSection";
+import type { PlanId } from "./types";
 
 function formatIDR(n: number) {
   return `Rp ${Math.round(n).toLocaleString("id-ID")}`;

@@ -3,6 +3,7 @@
 
 import { useMemo, useRef, useState } from "react";
 import { track } from "@/lib/tracking";
+import type { PlanId } from "./types";
 
 import HeroSection from "./HeroSection";
 import MicroUrgencyStrip from "./MicroUrgencyStrip";
@@ -16,9 +17,7 @@ import FAQSection from "./FAQSection";
 
 // NOTE: PricingSection in this project is a static section (no prop drilling).
 // We keep PlanId here only for pixel/tracking guards used across the page.
-type PlanId = "basic" | "bundle";
 
-// Plan IDs used across the landing page (kept here to avoid TS build errors)
 
 function scrollToId(id: string) {
   const el = document.getElementById(id);

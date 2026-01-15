@@ -1,6 +1,6 @@
 "use client";
 
-import type { PlanId } from "./PricingSection";
+import type { PlanId } from "./types";
 import Container from "@/components/Container";
 
 function formatIDR(n: number) {
