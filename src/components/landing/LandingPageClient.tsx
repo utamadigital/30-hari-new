@@ -16,7 +16,7 @@ import FAQSection from "./FAQSection";
 
 // NOTE: PricingSection in this project is a static section (no prop drilling).
 // We keep PlanId here only for pixel/tracking guards used across the page.
-type PlanId = "basic" | "bundle" | "premium";
+type PlanId = "basic" | "bundle";
 
 // Plan IDs used across the landing page (kept here to avoid TS build errors)
 
