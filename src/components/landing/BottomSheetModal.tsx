@@ -45,7 +45,7 @@ export default function BottomSheetModal({
   if (!open) return null;
 
   return (
-    <div className={cn("fixed inset-0", zIndexClassName ?? "z-[95]")}>
+    <div className={cn("fixed inset-0", zIndexClassName ?? "z-[95]")}> 
       {/* Overlay */}
       <button
         type="button"
@@ -62,12 +62,10 @@ export default function BottomSheetModal({
           className="w-full rounded-t-2xl border border-slate-200 bg-white shadow-2xl sm:max-w-2xl sm:rounded-2xl"
         >
           {/* Header */}
-          <div className="flex items-start justify-between gap-3 border-b border-slate-200 py-3">
+          <div className="flex items-start justify-between gap-3 border-b border-slate-200 px-4 py-3 sm:px-6">
             <div className="min-w-0">
               <p className="text-sm font-extrabold text-slate-900">{title}</p>
-              {subtitle ? (
-                <p className="mt-0.5 text-xs text-slate-600">{subtitle}</p>
-              ) : null}
+              {subtitle ? <p className="mt-0.5 text-xs text-slate-600">{subtitle}</p> : null}
             </div>
 
             <button
@@ -81,12 +79,12 @@ export default function BottomSheetModal({
           </div>
 
           {/* Content */}
-          <div className="max-h-[80dvh] overflow-y-auto py-4 sm:max-h-[70vh]">
+          <div className="max-h-[80dvh] overflow-y-auto px-4 py-5 sm:max-h-[70vh] sm:px-6">
             {children}
           </div>
 
           {/* Footer */}
-          <div className="border-t border-slate-200 py-3">
+          <div className="border-t border-slate-200 px-4 py-4 pb-[calc(1rem+env(safe-area-inset-bottom))] sm:px-6">
             <button
               type="button"
               onClick={onClose}
